@@ -1,0 +1,18 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+@mixin font($fw, $fs, $lh, $ls) {
+font-weight: $fw;
+font-size: $fs;
+line-height: $lh;
+letter-spacing: $ls;
+}
